@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Ангелина"
+  },
+  "text": {
+    "more": "Наглядное изображение связей моих друзей друг с другом! Знакомые из ВУЗа справа,соединены между собой,\nно не связано с моими друзьями из школы и наоборот.Те,кто вообще не общается с другими моими друзьями,находятся поодиночке,\nбез каких-либо ребер-связей.Могу предположить,что  цвета узлов зависят от количества связей с другими моими друзьями.",
+    "intro": "my friends` relationships",
+    "title": "Друзья из сети вконтакте"
+  },
+  "legend": {
+    "edgeLabel": "Связи/Контакты",
+    "colorLabel": "Зависимость от количества связей с моими друзьями ",
+    "nodeLabel": "Имена "
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
